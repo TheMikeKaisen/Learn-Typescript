@@ -87,3 +87,13 @@ tsc <tsFileName>
 
    </td>
   </tr>
+
+
+
+**Note: **You don’t need to always mention the type inference to the variable. The variable will take the data type of the initial value that you assign to the variable as default data type.
+
+
+```
+let num1= 45
+num1 ="hello" // will provide an error in typescript
+```

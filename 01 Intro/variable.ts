@@ -10,4 +10,23 @@ console.log(greetings);
 greetings = "hello world!"
 
 
+
+// number
+let userId: number = 32
+
+// you always don't need to mention the type inference to the variable
+
+let userId2 = 45
+
+userId.toFixed()
+
+console.log(userId)
+
+//any
+let sum;
+function add(){
+    return "five"
+}
+sum = add()
+
 export {}
